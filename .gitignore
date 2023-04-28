@@ -1,0 +1,6 @@
+try.py
+try1.py
+RecogResults/*.csv
+*_v1.py
+download_recog_results.py
+trigger_lambda_recog.py
