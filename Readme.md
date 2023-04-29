@@ -41,7 +41,6 @@ RESOURCE NAMES:
 
 
 OPENSTACK VM Start Instructions:
-
 - Start the EC2 Instance/VM Hosting OpenStack from Hibernet
 
 - Go to Horizon Dashboard and start the VM
