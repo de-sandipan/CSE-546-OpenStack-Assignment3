@@ -47,7 +47,7 @@ OPENSTACK VM Start Instructions:
 - Go to Horizon Dashboard and start the VM
 
 - Login into OpenStack VM and start the application
-    python3 trigger_lambda_recog.py
-    python3 download_recog_results.py
+  - python3 trigger_lambda_recog.py
+  - python3 download_recog_results.py
 
--Monitor ./RecogResults folder for downloaded files
+- Monitor ./RecogResults folder for downloaded files
