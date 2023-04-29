@@ -38,12 +38,3 @@ RESOURCE NAMES:
 1. input S3 nucket name : cse546-grp-dynamo-project3-ingress-bucket
 2. output S3 bucket name : cse546-grp-dynamo-project3-result-bucket
 3. Dynamo DB : After configuring AWS CLI, push data to dynamo_db using upload_data_to_dynamo.py
-
-#### LOCAL ENVIRONMENT SETUP
-
- - Create a new python environment
- - Run: `pip install -r requirements.txt`
- - Uncomment line 177 in handler.py to test in your non-docker IDE environment.
-- Execute `python handler.py`
-
-=======
