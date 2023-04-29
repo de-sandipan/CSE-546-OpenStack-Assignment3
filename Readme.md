@@ -5,7 +5,21 @@
 
 - Ipsit Sahoo, Sandipan De, Varad Vijay Deshmukh
 
-Installation steps:
+Installation steps for OpenStack:
+
+- Install Git: sudo apt install git -y
+
+- Download Devstack Scripts: git clone https://git.openstack.org/openstack-dev/devstackLinks 
+
+- Create devstack configuration file (update local.conf with default password)
+
+- Install Devstack: ./stack.sh
+
+- After installation is complete it will list IP address, default user and password.
+
+- Use the URL to access OpenStack Horizon
+
+Installation steps for Docker:
 
 - Ensure the test_case folder is downloaded from https://github.com/nehavadnere/cse546-project-lambda/tree/master/test_cases and set it up in the same directory as the project folder
 
