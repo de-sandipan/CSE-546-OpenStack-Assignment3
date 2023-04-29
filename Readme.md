@@ -38,3 +38,16 @@ RESOURCE NAMES:
 1. input S3 nucket name : cse546-grp-dynamo-project3-ingress-bucket
 2. output S3 bucket name : cse546-grp-dynamo-project3-result-bucket
 3. Dynamo DB : After configuring AWS CLI, push data to dynamo_db using upload_data_to_dynamo.py
+
+
+OPENSTACK VM Start Instructions:
+
+- Start the EC2 Instance/VM Hosting OpenStack from Hibernet
+
+- Go to Horizon Dashboard and start the VM
+
+- Login into OpenStack VM and start the application
+    python3 trigger_lambda_recog.py
+    python3 download_recog_results.py
+
+-Monitor ./RecogResults folder for downloaded files
